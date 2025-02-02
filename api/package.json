@@ -1,19 +1,21 @@
 {
-  "name": "try-api",
-  "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "*",
+    "bcrypt": "^5.1.1",
     "cors": "*",
     "dotenv": "*",
     "express": "*",
     "jsonwebtoken": "*",
     "passport": "*",
     "passport-jwt": "*"
+  },
+  "devDependencies": {
+    "prisma": "*"
   }
 }
